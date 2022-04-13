@@ -8,7 +8,7 @@
 
 > **_Note:_** if using Mac, docker desktop for Mac includes docker-compose out of the box so no need to install separately.
 
-### Run using docker compose
+### Run through docker compose
 
 1. clone this repo
 
@@ -20,7 +20,7 @@
 ```bash
    cd superset_poc
 ```
-3. run service
+3. run superset service
 
 ```bash
    docker-compose up -d
