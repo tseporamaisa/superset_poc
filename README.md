@@ -8,7 +8,7 @@
 
 ### Run using docker compose
 
-1. close this repo
+1. clone this repo
 
 ```bash
    git clone https://github.com/tseporamaisa/superset_poc.git
