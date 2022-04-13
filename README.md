@@ -12,4 +12,8 @@
    docker-compose up -d
 ```
 
-> **_Note:_** above comand runs superset on http://127.0.0.1:8088
+> **_Note:_** above comand runs superset on http://127.0.0.1:8088    
+
+### Login using credentials bellow  
+username: admin
+password: admin
