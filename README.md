@@ -8,7 +8,7 @@
 
 > **_Note:_** if using Mac, docker desktop for Mac includes docker-compose out of the box so no need to install separately.
 
-### Run through docker compose
+### Run through setup script
 
 1. clone this repo
 
@@ -23,7 +23,7 @@
 3. run superset service
 
 ```bash
-   docker-compose up -d
+   bash setup.sh start
 ```
 
 > **_Note:_** above comand runs superset on http://127.0.0.1:8088    
@@ -38,10 +38,10 @@ The deployement includes sample data for testing functionality. Enjoy :slightly_
     
 ### stop service without clean-up   
 ```bash
-   docker-compose down 
+   bash setup.sh stop 
 ```    
-### stop service with clean-up   
+### stop service with and clean-up   
 ```bash
-   docker-compose down -v --rmi all --remove-orphans
+   bash setup.sh cleanup
 ```
 > **_Note:_** above command will remove all volumes, delete images and dangling stuff defined by the compose file
