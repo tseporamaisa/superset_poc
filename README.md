@@ -1,4 +1,5 @@
-## Running service locally
+## Running service locally  
+---
 
 ### Prerequisites
 
@@ -32,9 +33,17 @@
 - username: admin
 - password: admin
 
-The deployement includes sample data for testing functionality. Enjoy :slightly_smiling_face:    
+The deployement includes sample data for testing functionality. Enjoy :slightly_smiling_face:     
+     
+## Useful links   
+---    
+- [Intro to superset](https://superset.apache.org/docs/intro/)    
+- [Creating dashboards guide](https://superset.apache.org/docs/creating-charts-dashboards/creating-your-first-dashboard/)
+- [Basic tutorial video](https://www.youtube.com/watch?v=dg1gOkljCkE&t=219s)
+
 
 ## Stopping the service    
+---  
     
 ### stop service without clean-up   
 ```bash
